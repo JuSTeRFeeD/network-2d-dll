@@ -4,7 +4,9 @@
     {
         // Connection
         Disconnect = 1,
-        NewPlayerConnected = 2,
+        Connect = 2, 
+        PlayerConnect = 3,
+        PlayerDisconnect = 4,
         
         // Chat
         ChatMessage = 1000,
